@@ -7,7 +7,7 @@ const Menuitem = require('../models/menuItem');
 
 
 
-//post request
+//post request to save the data to the server and db
 router.post("/", async (req, res) => {
 
     try {
